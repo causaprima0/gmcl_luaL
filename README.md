@@ -24,7 +24,7 @@ print(luaL.iscfunction(function() end)); -- output: false
 ### `luaL.close(): void`
 Terminates the game's Lua state, effectively causing the game to crash.
 ```lua
-if (not luaL.iscfunction(debug)) then
+if (not luaL.iscfunction(debug.getinfo)) then
     return luaL.close();
 end
 ```
