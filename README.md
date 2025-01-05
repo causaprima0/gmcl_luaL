@@ -1,5 +1,5 @@
 # gmcl_luaL
-A straightforward module that implements specific quality-of-life functions from the C Lua library into the game. All functions are exported to the global `luaL` table. Inspired by [oink's Lua API](https://oink.industries/gmod_wiki/lua_api/). Please note that while it is unlikely, it is still possible to detect certain functions, such as luaL.createcclosure. Certain functions may be exploited to perform memory read and write manipulations.
+A straightforward module that implements specific quality-of-life functions from the C Lua library into the game. All functions are exported to the global `luaL` table. Inspired by [oink's Lua API](https://oink.industries/gmod_wiki/lua_api/). Please note that while it is unlikely, it is still possible to detect certain functions, such as `luaL.cclosure`. Certain functions may be exploited to perform memory read and write manipulations.
 
 ## Functions
 ```lua
